@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var map = new Map();
 var set = new Set();
 var p;
@@ -30,3 +32,5 @@ myList.push(2);
 for (var i = 0; i < myList.length; i++) {
     console.log(i + ": " + myList[i]);
 }
+var tu2_1 = require("./tu2");
+(new tu2_1.Student("dickInnDoc")).call();
